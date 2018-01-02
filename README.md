@@ -12,8 +12,8 @@ sqlitedb. These data are availabel in /afs/cern.ch/cms/cmsweb/analytics
 area. The final set of data was feed into web interface where access to
 data-services was displayed as following
 
-![access1](https://github.com/vkuznet/CMSWebAnalytics/images/plot1.png)
-![access2](https://github.com/vkuznet/CMSWebAnalytics/images/plot2.png)
+![access1](https://github.com/vkuznet/CMSWebAnalytics/blob/master/images/plot1.png)
+![access2](https://github.com/vkuznet/CMSWebAnalytics/blob/master/images/plot2.png)
 
 ### Tasks
 - write Go-based parser to parse apache log files. Here is an example of apache
