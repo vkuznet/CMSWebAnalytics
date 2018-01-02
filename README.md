@@ -1,6 +1,20 @@
 # CMSWebAnalytics
 A project to perform CMS web analytics.
 
+### Introduction
+CMS collects various logs from data-services deployed on cmsweb cluster.
+They are DBS, DAS, SiteDB, Phedex, ReqMgr2, etc.
+
+The original (code)[https://github.com/dmwm/analytics] was written in Python
+and deployed on slc5_amd64_gcc461 architecture. It parsed log files available
+on vocms022 and produce series of dataframes stored either in json, txt or
+sqlitedb. These data are availabel in /afs/cern.ch/cms/cmsweb/analytics
+area. The final set of data was feed into web interface where access to
+data-services was displayed as following
+
+![access1](https://github.com/vkuznet/CMSWebAnalytics/images/plot1.pdf)
+![access2](https://github.com/vkuznet/CMSWebAnalytics/images/plot2.pdf)
+
 ### Tasks
 - write Go-based parser to parse apache log files. Here is an example of apache
   entry:
